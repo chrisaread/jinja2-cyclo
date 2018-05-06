@@ -1,0 +1,18 @@
+{# test template #}
+Hello
+
+{% if thing %}
+thing
+{{ templated_thing }}
+{% elif other_thing %}
+other thing
+{{ templated_other_thing }}
+{% elif other_thing2 %}
+other thing2
+{{ templated_other_thing2 }}
+{% else %}
+no things
+{{ templated_unthing }}
+{% endif %}
+
+Trailing garbage?
